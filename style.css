@@ -1,0 +1,358 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;       
+}
+.container {
+    max-width: 1674px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;    
+    
+}
+
+.header {
+    /* padding-top: 220px; */
+    min-height: 970px;
+    background-image: url(img/Background\ .png);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.logo {         
+    padding-top:  24.84px;
+    
+}
+.menu {      
+    display: flex;
+    justify-content: space-between; 
+}
+.nav {
+    display: flex;       
+    list-style: none;
+    padding: 0;
+    padding-top: 30px;    
+    margin: 0;    
+    
+}
+.nav li a {
+    width: 78px;
+    height: 11px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18.29px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0 13px;
+    padding-left: px;     
+    font-family: "Montserrat";   
+}
+
+.header h1 {    
+    font-size: 70px;
+    font-weight: 700;
+    width: 621px;
+    height: 187px;
+    margin-bottom: 50px;
+    line-height: 95px;
+    color: #FFFFFF;
+    margin-top: 171px;
+    font-family: "Playfair Display";         
+}
+.header p {    
+    width: 454px;
+    height: 80px;
+    margin-bottom: 70px;    
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 45px;
+    color: #FFFFFF;
+    font-family: "Montserrat";
+}
+.header button {
+    width: 307px;
+    height: 75px;
+    border-radius: 38px;
+    background-color: #3CDCFF;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24.38px;    
+}
+
+
+
+.section.container {
+    width: 1345px;
+    height: 474px;    
+}
+p.title1 {
+    min-width: 63px;
+    height: 27px;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 29px;
+    padding-top: 27px;
+    padding-left: 61px;
+    margin: 0;
+    font-family: "Playfair Display";
+    color: #FFFFFF;
+}
+p.title2 {
+    width: 63px;
+    height: 27px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    font-family: "Montserrat";
+    padding-top: 26px;
+    padding-left: 60px;
+    margin: 0;
+    color: #FFFFFF;
+}
+p.title3 {   
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    font-family: "Montserrat";
+    padding-top: 317px;
+    padding-left: 60px;
+    margin: 0;
+    color: #FFFFFF;    
+}
+.items {
+    display: flex;
+}
+.item1 {
+    width: 828px;
+    height: 474px;
+    border-radius: 16px;
+    background-image: url(img/Hawaii.png);
+    margin-top: 159px;
+    margin-left: 146px;    
+}
+.item2 {
+    padding-top: 147px;
+    padding-left: 101px;   
+}
+p.title4 {
+    width: 417px;
+    height: 123px;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 65px;
+    color: #030000;
+    font-family: "Playfair Display";
+    
+}
+p.title5 {
+    width: 417px;
+    height: 114px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    font-family: "Montserrat";
+}
+.item2 button {
+    width: 271px;
+    height: 75px;
+    border-radius: 38px;
+    border: 2px solid #3CDCFF;
+    background-color: #FFFFFF;
+    color: #48DEFF;
+}
+
+/* Team */
+
+.team {
+    min-height: 518px;
+    background-image: url(img/Form.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 160px;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    padding-top: 37px;
+    padding-left: 510px;
+}
+p.text1 {
+    width: 367px;
+    height: 180px;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 65px;
+    font-family: "Playfair Display";
+    color: #030000;
+}
+p.text2 {
+    width: 195px;
+    height: 71px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    font-family: "Montserrat";
+    color: #030000;
+}
+p.text3 {
+    width: 212px;
+    height: 35px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px; 
+    padding-left: 43px;
+    color: #030000;      
+}
+.block2 input {
+    width: 284px;
+    height: 67px;
+    border-radius: 38px;
+    border: 2px solid #9CB7CA;    
+}
+.block2 button {
+    width: 284px;
+    height: 67px;
+    border-radius: 38px;
+    background-color: #3CDCFF;
+    margin-top: 25px;
+}
+.block2 form {
+    gap:20px;   
+}
+button {
+    width: 204px;
+    height: 24px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24.38px;
+    color: #000000;
+    font-family: "Montserrat";
+}
+.block2 {
+    padding-top: 64px;
+    padding-left: 50px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat";
+}
+a {
+    text-decoration: none;
+}
+
+/* Setvices */
+
+.content.container {
+    width: 1393px;
+    height: 474px;    
+}
+p.write3 {
+    min-width: 78.21px;
+    height: 27px;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 29px;
+    padding-top: 29px;
+    padding-left: 40px;
+    margin: 0;
+    font-family: "Playfair Display";
+    color: #FFFFFF;
+}
+p.write4 {
+    width: 200px;
+    height: 27px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    font-family: "Montserrat";
+    padding-top: 35px;
+    padding-left: 40px;
+    margin: 0;
+    color: #FFFFFF;
+}
+p.write5 { 
+    width: 370px;
+    height: 59px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    font-family: "Montserrat";
+    padding-top: 308px;
+    padding-left: 40px;
+    margin: 0;
+    color: #FFFFFF;    
+}
+.boxs {
+    display: flex;
+}
+.box2 {
+    width: 819.76px;
+    height: 474px;
+    border-radius: 16px;
+    background-image: url(img/Hawaii2.png);
+    margin-top: 159px;
+    margin-left: 146px;    
+}
+.box1 {
+    padding-top: 147px;
+    padding-left: 101px;   
+}
+p.write1 {
+    width: 474.23px;
+    height: 123px;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 65px;
+    color: #030000;
+    font-family: "Playfair Display";
+    padding-left: 14px;
+    margin-top: 36px;
+    margin-bottom: 30px;
+    
+}
+p.write2 {
+    width: 494.04px;
+    height: 114px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    font-family: "Montserrat";
+    padding-left: 18px;
+}
+.box1 button {
+    width: 271px;
+    height: 75px;
+    border-radius: 38px;
+    border: 2px solid #3CDCFF;
+    background-color: #FFFFFF;
+    color: #48DEFF;
+    
+}
+/* Footer */
+.footer {
+    max-width: 1924px;
+    height: 160px;
+    
+    margin-top: 160px;
+    background-color: #F1F2F6;
+}
+.footer.container {    
+}
+.nav2 li {
+    padding: 10px 20px;    
+}
+.nav3  {
+    display: flex;    
+}
+ul.navigator {
+    display: flex;
+    justify-content: space-between;        
+    list-style: none;
+    padding-top: 70px;      
+}
